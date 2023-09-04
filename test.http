@@ -2,5 +2,16 @@ POST http://localhost:18080/
 Content-Type: application/json
 
 {
-  "email": "test"
+  "email": "{{email}}",
+  "password" : "{{password}}"
+}
+
+###
+
+POST https://asia-northeast1-piudb-393301.cloudfunctions.net/piudb-crawling
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "password" : "{{password}}"
 }

@@ -4,8 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "build:local": "tsc -w",
+    "gcp-build": "node node_modules/puppeteer/install.js && tsc",
     "start": "npx functions-framework --target=crawling --port=18080"
   },
   "keywords": [],
@@ -13,6 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/functions-framework": "^3.3.0",
+    "puppeteer": "^21.1.1"
+  },
+  "devDependencies": {
     "typescript": "^5.2.2"
   }
 }

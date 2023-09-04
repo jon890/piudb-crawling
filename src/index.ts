@@ -1,24 +1,32 @@
 import * as functions from "@google-cloud/functions-framework";
+import loadGameIds from "./load-gameid";
+import loginToPIU from "./login-piu";
 import { isBlank } from "./util";
+import loadBestScore from "./load-best-score";
 
 // functions.http("helloHttp", (req, res) => {
 //   res.send(`Hello ${req.query.name || req.body.name || "World"}!`);
 // });
 
-functions.http("crawling", (req, res) => {
+functions.http("crawling", async (req, res) => {
   const { email, password } = req.body;
 
-  console.log(req.body);
-
   if (isBlank(email)) {
-    res.status(400).send("email is required");
+    res.status(200).send("email is required");
     return;
   }
 
   if (isBlank(password)) {
-    res.status(400).send("password is required");
+    res.status(200).send("password is required");
     return;
   }
 
-  res.send(`Your emails is ${email}`);
+  const logginSessionPage = await loginToPIU({ email, password });
+  const gameIds = await loadGameIds(logginSessionPage);
+  const bestScore = await loadBestScore(logginSessionPage);
+
+  logginSessionPage.close();
+  logginSessionPage.browser().close();
+
+  res.send({ gameIds, bestScore });
 });
