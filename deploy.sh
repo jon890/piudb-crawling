@@ -4,6 +4,6 @@ gcloud functions deploy piudb-crawling \
 --runtime=nodejs20 \
 --region=asia-northeast3 \
 --source=. \
---entry-point=helloHttp \
+--entry-point=crawling \
 --trigger-http \
 --allow-unauthenticated

@@ -5,7 +5,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "npx functions-framework --target=helloHttp --port=18080"
+    "build:local": "tsc -w",
+    "start": "npx functions-framework --target=crawling --port=18080"
   },
   "keywords": [],
   "author": "",
