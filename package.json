@@ -2,14 +2,16 @@
   "name": "piudb-crawling",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
+    "build": "tsc",
     "start": "npx functions-framework --target=helloHttp --port=18080"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/functions-framework": "^3.3.0"
+    "@google-cloud/functions-framework": "^3.3.0",
+    "typescript": "^5.2.2"
   }
 }
