@@ -5,6 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "gcp-build": "node node_modules/puppeteer/install.js && tsc",
+    "prestart": "npm run gcp-build",
     "start": "npx functions-framework --target=crawling --port=18080"
   },
   "keywords": [],

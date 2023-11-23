@@ -1,4 +1,5 @@
-import puppeteer, { Page } from "puppeteer";
+import puppeteer, { Browser, Dialog, Page } from "puppeteer";
+import { sleep } from "./util";
 
 export type LoginParams = {
   email: string;
@@ -11,33 +12,49 @@ export type LoginParams = {
  */
 export default async function loginToPIU(params: LoginParams) {
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: "new",
+    // headless: false,
     args: ["--no-sandbox"],
   });
 
   const page = await browser.newPage();
-  await page.goto("https://www.piugame.com/");
+  await page.goto("https://www.piugame.com/login.php");
 
   const idElement = await page.waitForSelector("input[name='mb_id']");
   const passwordElement = await page.waitForSelector(
     "input[name='mb_password']"
   );
-  const loginBtnElement = await page.waitForSelector("button.btn.st1");
+  const loginBtnElement = await page.waitForSelector(
+    "form#login_fs button[type='submit']"
+  );
 
-  await idElement?.type(params.email);
-  await passwordElement?.type(params.password);
-  await loginBtnElement?.click();
+  if (!idElement || !passwordElement || !loginBtnElement) {
+    throw Error("Login Failed");
+  }
 
-  return page;
+  await idElement.type(params.email);
+  await passwordElement.type(params.password);
+  await loginBtnElement.click();
+  await page.close();
+
+  return browser;
 }
 
-export async function loginCheck(page: Page) {
+/**
+ * 로그인 상태를 체크한다
+ *
+ * @param browser
+ */
+export async function loginCheck(browser: Browser) {
   try {
-    const loginCheck = await page.waitForSelector("div.login_wrap a.loginBtn", {
-      timeout: 3000,
-    });
-    const btnText = await loginCheck?.$eval("i.tt", (el) => el.textContent);
-    if (btnText !== "로그아웃") {
+    const page = await browser.newPage();
+    await page.goto("https://www.piugame.com");
+
+    const btnLink =
+      (await page.$eval("div.login_wrap a.loginBtn", (el) => el.href)) ?? "";
+
+    // console.log(btnLink);
+    if (!btnLink.includes("logout")) {
       throw Error("Login Failed");
     }
   } catch (e) {

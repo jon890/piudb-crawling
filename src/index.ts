@@ -21,12 +21,11 @@ functions.http("crawling", async (req, res) => {
     return;
   }
 
-  const logginSessionPage = await loginToPIU({ email, password });
-  const gameIds = await loadGameIds(logginSessionPage);
-  const bestScore = await loadBestScore(logginSessionPage);
+  const browser = await loginToPIU({ email, password });
+  const gameIds = await loadGameIds(browser);
+  const bestScore = await loadBestScore(browser);
 
-  logginSessionPage.close();
-  logginSessionPage.browser().close();
+  await browser.close();
 
   res.send({ gameIds, bestScore });
 });

@@ -1,4 +1,4 @@
-import { Page } from "puppeteer";
+import { Browser, Page } from "puppeteer";
 import { loginCheck } from "./login-piu";
 
 export type BestScore = {
@@ -13,8 +13,9 @@ export type BestScore = {
  * 베스트 스코어 가져오기
  * 로그인 된 페이지가 필요하다
  */
-export default async function loadBestScore(page: Page) {
-  await loginCheck(page);
+export default async function loadBestScore(browser: Browser) {
+  await loginCheck(browser);
+  const page = await browser.newPage();
   await page.goto("https://www.piugame.com/my_page/my_best_score.php");
 
   const data = await page.$$eval("ul.my_best_scoreList > li", (lis) =>

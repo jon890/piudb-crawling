@@ -1,4 +1,4 @@
-import { Page } from "puppeteer";
+import { Browser, Page } from "puppeteer";
 import { loginCheck } from "./login-piu";
 
 export type GameId = {
@@ -10,9 +10,9 @@ export type GameId = {
  * 펌프 잇업 아이디 목록 조회
  * 로그인 이후에 처리해야한다
  */
-export default async function loadGameIds(page: Page) {
-  await loginCheck(page);
-
+export default async function loadGameIds(browser: Browser) {
+  await loginCheck(browser);
+  const page = await browser.newPage();
   await page.goto("https://www.piugame.com/my_page/game_id_information.php");
 
   const data = await page.$$eval(
