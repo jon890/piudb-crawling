@@ -1,5 +1,4 @@
-import puppeteer, { Browser, Dialog, Page } from "puppeteer";
-import { sleep } from "./util";
+import puppeteer, { Browser } from "puppeteer";
 
 export type LoginParams = {
   email: string;

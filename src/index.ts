@@ -23,9 +23,9 @@ functions.http("crawling", async (req, res) => {
 
   const browser = await loginToPIU({ email, password });
   const gameIds = await loadGameIds(browser);
-  const bestScore = await loadBestScore(browser);
+  // const bestScore = await loadBestScore(browser);
 
   await browser.close();
 
-  res.send({ gameIds, bestScore });
+  res.send({ gameIds });
 });
