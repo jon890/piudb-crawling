@@ -1,5 +1,5 @@
 import { Browser } from "puppeteer";
-import { loginCheck } from "./login-piu";
+import { sleep } from "./util";
 
 export type GameId = {
   title: string;
@@ -13,8 +13,6 @@ export type GameId = {
  * 로그인 이후에 처리해야한다
  */
 export default async function loadGameIds(browser: Browser) {
-  await loginCheck(browser);
-
   const page = await browser.newPage();
   await page.goto("https://www.piugame.com/my_page/game_id_information.php");
 

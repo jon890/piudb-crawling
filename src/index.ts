@@ -1,6 +1,7 @@
 import * as functions from "@google-cloud/functions-framework";
+import changeGameId from "./change-gameid";
 import loadGameIds from "./load-gameid";
-import loginToPIU from "./login-piu";
+import loginToPIU, { loginCheck } from "./login-piu";
 import { isBlank } from "./util";
 import loadBestScore from "./load-best-score";
 
@@ -9,7 +10,7 @@ import loadBestScore from "./load-best-score";
 // });
 
 functions.http("crawling", async (req, res) => {
-  const { email, password } = req.body;
+  const { email, password, nickname } = req.body;
 
   if (isBlank(email)) {
     res.status(200).send("email is required");
@@ -22,10 +23,18 @@ functions.http("crawling", async (req, res) => {
   }
 
   const browser = await loginToPIU({ email, password });
+  await loginCheck(browser);
   const gameIds = await loadGameIds(browser);
-  // const bestScore = await loadBestScore(browser);
 
-  await browser.close();
+  if (nickname) {
+    await changeGameId(browser, nickname);
+    const bestScore = await loadBestScore(browser);
 
-  res.send({ gameIds });
+    await browser.close();
+    res.send({ gameIds, bestScore });
+    return;
+  } else {
+    await browser.close();
+    res.send({ gameIds });
+  }
 });

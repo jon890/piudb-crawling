@@ -28,14 +28,14 @@ export default async function loginToPIU(params: LoginParams) {
   );
 
   if (!idElement || !passwordElement || !loginBtnElement) {
-    throw Error("Login Failed");
+    throw Error("LoginError: input elements not found");
   }
 
   await idElement.type(params.email);
   await passwordElement.type(params.password);
   await loginBtnElement.click();
-  await page.close();
 
+  await page.close();
   return browser;
 }
 
@@ -56,6 +56,8 @@ export async function loginCheck(browser: Browser) {
     if (!btnLink.includes("logout")) {
       throw Error("Login Failed");
     }
+
+    await page.close();
   } catch (e) {
     console.error(e);
     throw Error("Login Failed");
