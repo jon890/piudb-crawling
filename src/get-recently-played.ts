@@ -1,4 +1,4 @@
-import { Browser } from "puppeteer";
+import { Browser, Page } from "puppeteer";
 import { sleep } from "./util";
 
 export type Type = "Single" | "Double" | "Unknown";
@@ -53,11 +53,41 @@ export type RecentlyPlayed = {
  * 로그인 된 페이지가 필요하다
  */
 export default async function getRecentlyPlayed(browser: Browser) {
+  const URL = "https://www.piugame.com/my_page/recently_played.php";
   const page = await browser.newPage();
-  await page.goto("https://www.piugame.com/my_page/recently_played.php");
+  await page.goto(URL);
 
-  await sleep(500); // 페이지 로드를 기다린다
+  await sleep(100); // 페이지 로드를 기다린다
 
+  const noContents = await page.$("div.no_con");
+  if (noContents) {
+    return [];
+  }
+
+  // 페이지 목록을 불러온다
+  const pageFunction =
+    (await page.$eval("div.board_paging button:last-child", (el) => {
+      return el.onclick?.toString();
+    })) ?? "";
+  // "function onclick(event) {\nlocation.href='?&&page=33'\n}"
+  const lastPage = pageFunction.substring(
+    pageFunction.lastIndexOf("=") + 1,
+    pageFunction.lastIndexOf("'")
+  );
+  console.info("lastPage", lastPage);
+
+  const allRecords: RecentlyPlayed[] = [];
+  for (let i = 1; i <= Number(lastPage); i++) {
+    await sleep(100);
+    await page.goto(URL + "?&&page=" + i);
+    const data = await getRecentlyPlayedPage(page);
+    allRecords.push(...data);
+  }
+
+  return allRecords;
+}
+
+async function getRecentlyPlayedPage(page: Page) {
   const data: RecentlyPlayed[] = await page.$$eval(
     "ul.recently_playeList > li",
     (list) =>
@@ -70,7 +100,7 @@ export default async function getRecentlyPlayed(browser: Browser) {
           let type: Type;
           if (typeSrc.includes("s_text.png")) {
             type = "Single";
-          } else if (typeSrc.includes("d_text_png")) {
+          } else if (typeSrc.includes("d_text.png")) {
             type = "Double";
           } else {
             type = "Unknown";
@@ -185,6 +215,5 @@ export default async function getRecentlyPlayed(browser: Browser) {
         .filter((it) => it.score !== 0) // stage break 무시
         .filter((it) => it.plate != null) // break off 무시
   );
-
   return data;
 }
