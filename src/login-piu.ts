@@ -1,4 +1,5 @@
 import puppeteer, { Browser } from "puppeteer";
+import { sleep } from "./util";
 
 export type LoginParams = {
   email: string;
@@ -35,6 +36,7 @@ export default async function loginToPIU(params: LoginParams) {
   await passwordElement.type(params.password);
   await loginBtnElement.click();
 
+  await sleep(200);
   await page.close();
   return browser;
 }
@@ -52,8 +54,8 @@ export async function loginCheck(browser: Browser) {
     const btnLink =
       (await page.$eval("div.login_wrap a.loginBtn", (el) => el.href)) ?? "";
 
-    // console.log(btnLink);
     if (!btnLink.includes("logout")) {
+      console.log("LoginFailed with btnLink", btnLink);
       throw Error("Login Failed");
     }
 

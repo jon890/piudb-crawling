@@ -12,6 +12,8 @@ import { isBlank } from "./util";
 functions.http("crawling", async (req, res) => {
   const { email, password, nickname } = req.body;
 
+  handleCors(req, res);
+
   if (isBlank(email)) {
     res.status(200).send("email is required");
     return;
@@ -22,20 +24,36 @@ functions.http("crawling", async (req, res) => {
     return;
   }
 
-  const browser = await loginToPIU({ email, password });
-  await loginCheck(browser);
+  try {
+    const browser = await loginToPIU({ email, password });
+    await loginCheck(browser);
 
-  if (nickname) {
-    await changeGameId(browser, nickname);
-    const recentlyPlayed = await getRecentlyPlayed(browser);
+    if (nickname) {
+      await changeGameId(browser, nickname);
+      const recentlyPlayed = await getRecentlyPlayed(browser);
 
-    await browser.close();
-    res.send({ recentlyPlayed });
-    return;
-  } else {
-    const gameIds = await loadGameIds(browser);
+      await browser.close();
+      res.send({ recentlyPlayed });
+      return;
+    } else {
+      const gameIds = await loadGameIds(browser);
 
-    await browser.close();
-    res.send({ gameIds });
+      await browser.close();
+      res.send({ gameIds });
+    }
+  } catch (e) {
+    console.log(e);
+    res.status(400).send({ error: (e as Error)?.message ?? "Unknown Error" });
   }
 });
+
+function handleCors(req: functions.Request, res: functions.Response) {
+  res.set("Access-Control-Allow-Origin", "*");
+
+  if (req.method === "OPTIONS") {
+    res.set("Access-Control-Allow-Methods", "GET");
+    res.set("Access-Control-Allow-Headers", "Content-Type");
+    res.set("Access-Control-Max-Age", "3600");
+    res.status(204).send("");
+  }
+}
