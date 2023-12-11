@@ -11,16 +11,17 @@ import { isBlank } from "./util";
 
 functions.http("crawling", async (req, res) => {
   const { email, password, nickname } = req.body;
+  // console.log("Request!!!", req.headers, req.body, email, password, nickname);
 
   handleCors(req, res);
 
   if (isBlank(email)) {
-    res.status(200).send("email is required");
+    res.status(400).send({ error: "email is required" });
     return;
   }
 
   if (isBlank(password)) {
-    res.status(200).send("password is required");
+    res.status(400).send({ error: "password is required" });
     return;
   }
 
