@@ -13,6 +13,7 @@ export type LoginParams = {
 export default async function loginToPIU(params: LoginParams) {
   const browser = await puppeteer.launch({
     headless: "new",
+    // 가상 브라우저 실행
     // headless: false,
     args: ["--no-sandbox"],
   });
@@ -20,22 +21,9 @@ export default async function loginToPIU(params: LoginParams) {
   const page = await browser.newPage();
   await page.goto("https://www.piugame.com/login.php");
 
-  const idElement = await page.waitForSelector("input[name='mb_id']");
-  const passwordElement = await page.waitForSelector(
-    "input[name='mb_password']"
-  );
-  const loginBtnElement = await page.waitForSelector(
-    "form#login_fs button[type='submit']"
-  );
-
-  if (!idElement || !passwordElement || !loginBtnElement) {
-    throw Error("LoginError: input elements not found");
-  }
-
-  await idElement.type(params.email);
-  await passwordElement.type(params.password);
-  await loginBtnElement.click();
-
+  await page.type("input[name='mb_id']", params.email);
+  await page.type("input[name='mb_password']", params.password);
+  await page.click("form#login_fs button[type='submit']");
   await sleep(200);
   await page.close();
   return browser;

@@ -1,6 +1,4 @@
 import { Browser } from "puppeteer";
-import { loginCheck } from "./login-piu";
-import { sleep } from "./util";
 
 export type GameId = {
   title: string;
