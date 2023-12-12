@@ -34,20 +34,13 @@ functions.http("crawling", async (req, res) => {
     console.log(e);
 
     if (e instanceof CrawlingException) {
-      console.log("hihihi");
-      console.log(
-        JSON.stringify(CrawlingResponse.error(e.errorCode, e.message))
-      );
-
       res
         .status(e.httpStatus)
-        .send(CrawlingResponse.error(e.errorCode, e.message).toString());
+        .send(CrawlingResponse.error(e.errorCode, e.message));
     } else {
       res
         .status(500)
-        .send(
-          CrawlingResponse.error("UNKNOWN", (e as Error).message).toString()
-        );
+        .send(CrawlingResponse.error("UNKNOWN", (e as Error).message));
     }
   }
 });
