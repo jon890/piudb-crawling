@@ -1,11 +1,23 @@
+### 게임아이디 불러오기
+POST http://localhost:18080/
+Content-Type: application/json
+
+{
+  "email": "asdfjioasdf",
+  "password" : "{{password}}"
+}
+
+###
+
 POST http://localhost:18080/
 Content-Type: application/json
 
 {
   "email": "{{email}}",
   "password" : "{{password}}",
-  "nickname": "{{nickname}}"
+    "nickname": "{{nickname}}"
 }
+
 
 ###
 
