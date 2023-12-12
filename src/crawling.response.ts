@@ -14,4 +14,8 @@ export class CrawlingResponse<T> {
   static ok<T>(data?: T, message?: "ok") {
     return new CrawlingResponse(undefined, message, data);
   }
+
+  toString() {
+    return JSON.stringify(this);
+  }
 }

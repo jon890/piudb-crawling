@@ -1,4 +1,7 @@
 {
   "verbose": true,
-  "delay": 500
+  "delay": 1000,
+  "events": {
+    "restart": "npm run gcp-build"
+  }
 }

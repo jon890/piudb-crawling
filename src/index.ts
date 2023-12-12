@@ -1,11 +1,11 @@
 import * as functions from "@google-cloud/functions-framework";
 import changeGameId from "./change-gameid";
+import { CrawlingResponse } from "./crawling.response";
 import { CrawlingException } from "./exception/crawling.exception";
 import getRecentlyPlayed from "./get-recently-played";
 import loadGameIds from "./load-gameid";
-import loginToPIU, { loginCheck } from "./login-piu";
+import loginToPIU, { checkLoginState } from "./login-piu";
 import { isBlank } from "./util";
-import { CrawlingResponse } from "./crawling.response";
 
 functions.http("crawling", async (req, res) => {
   const { email, password, nickname } = req.body;
@@ -15,7 +15,7 @@ functions.http("crawling", async (req, res) => {
     if (isBlank(password)) throw new CrawlingException("PASSWORD_REQUIRED");
 
     const browser = await loginToPIU({ email, password });
-    await loginCheck(browser);
+    await checkLoginState(browser);
 
     if (nickname) {
       await changeGameId(browser, nickname);
@@ -32,14 +32,22 @@ functions.http("crawling", async (req, res) => {
     }
   } catch (e) {
     console.log(e);
+
     if (e instanceof CrawlingException) {
+      console.log("hihihi");
+      console.log(
+        JSON.stringify(CrawlingResponse.error(e.errorCode, e.message))
+      );
+
       res
         .status(e.httpStatus)
-        .send(CrawlingResponse.error(e.errorCode, e.message));
+        .send(CrawlingResponse.error(e.errorCode, e.message).toString());
     } else {
       res
         .status(500)
-        .send(CrawlingResponse.error("UNKNOWN", (e as Error).message));
+        .send(
+          CrawlingResponse.error("UNKNOWN", (e as Error).message).toString()
+        );
     }
   }
 });
