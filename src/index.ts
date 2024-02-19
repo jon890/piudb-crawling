@@ -8,6 +8,9 @@ import loginToPIU, { checkLoginState } from "./login-piu";
 import { isBlank } from "./util";
 
 functions.http("crawling", async (req, res) => {
+  // console.log("reqIp", req.ip);
+  // console.log("reqReferrer", req.get("referrer"));
+
   const { email, password, nickname } = req.body;
 
   try {

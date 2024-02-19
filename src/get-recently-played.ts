@@ -65,27 +65,7 @@ export default async function getRecentlyPlayed(browser: Browser) {
     return [];
   }
 
-  // 페이지 목록을 불러온다
-  const pageFunction =
-    (await page.$eval("div.board_paging button:last-child", (el) => {
-      return el.onclick?.toString();
-    })) ?? "";
-  // "function onclick(event) {\nlocation.href='?&&page=33'\n}"
-  const lastPage = pageFunction.substring(
-    pageFunction.lastIndexOf("=") + 1,
-    pageFunction.lastIndexOf("'")
-  );
-  console.info("lastPage", lastPage);
-
-  const allRecords: RecentlyPlayed[] = [];
-  for (let i = 1; i <= Number(lastPage); i++) {
-    await sleep(100);
-    await page.goto(URL + "?&&page=" + i);
-    const data = await getRecentlyPlayedPage(page);
-    allRecords.push(...data);
-  }
-
-  return allRecords;
+  return getRecentlyPlayedPage(page);
 }
 
 async function getRecentlyPlayedPage(page: Page) {
