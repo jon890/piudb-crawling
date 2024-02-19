@@ -1,4 +1,5 @@
 import { Browser } from "puppeteer";
+import { getPageWithNotImage } from "./puppeteer/ready-browser";
 
 export type BestScore = {
   isDouble: boolean;
@@ -13,7 +14,7 @@ export type BestScore = {
  * 로그인 된 페이지가 필요하다
  */
 export default async function loadBestScore(browser: Browser) {
-  const page = await browser.newPage();
+  const page = await getPageWithNotImage(browser);
   await page.goto("https://www.piugame.com/my_page/my_best_score.php");
 
   const data = await page.$$eval("ul.my_best_scoreList > li", (lis) =>

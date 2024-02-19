@@ -1,5 +1,6 @@
 import { Browser } from "puppeteer";
 import { sleep } from "./util";
+import { getPageWithNotImage } from "./puppeteer/ready-browser";
 
 export type GameId = {
   title: string;
@@ -13,7 +14,7 @@ export type GameId = {
  * 로그인 이후에 처리해야한다
  */
 export default async function loadGameIds(browser: Browser) {
-  const page = await browser.newPage();
+  const page = await getPageWithNotImage(browser);
   await page.goto("https://www.piugame.com/my_page/game_id_information.php");
 
   const data = await page.$$eval(

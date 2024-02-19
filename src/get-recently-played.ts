@@ -1,4 +1,5 @@
 import { Browser, Page } from "puppeteer";
+import { getPageWithNotImage } from "./puppeteer/ready-browser";
 import { sleep } from "./util";
 
 export type Type = "Single" | "Double" | "Unknown";
@@ -54,7 +55,7 @@ export type RecentlyPlayed = {
  */
 export default async function getRecentlyPlayed(browser: Browser) {
   const URL = "https://www.piugame.com/my_page/recently_played.php";
-  const page = await browser.newPage();
+  const page = await getPageWithNotImage(browser);
   await page.goto(URL);
 
   await sleep(100); // 페이지 로드를 기다린다

@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "gcp-build": "node node_modules/puppeteer/install.js && tsc",
+    "gcp-build": "node node_modules/puppeteer/install.mjs && tsc",
     "prestart": "npm run gcp-build",
     "start": "nodemon -e ts --exec functions-framework --target=crawling --port=18080"
   },
@@ -13,10 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/functions-framework": "^3.3.0",
-    "puppeteer": "^21.1.1"
+    "puppeteer": "^22.1.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2",
-    "typescript": "^5.2.2"
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3"
   }
 }
