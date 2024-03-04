@@ -2,7 +2,7 @@ import { Browser, Page } from "puppeteer";
 import { getPageWithNotImage } from "./puppeteer/ready-browser";
 import { sleep } from "./util";
 
-export type Type = "Single" | "Double" | "Unknown";
+export type Type = "SINGLE" | "DOUBLE" | "Unknown";
 
 export type Grade =
   | "SSS_PLUS"
@@ -80,9 +80,9 @@ async function getRecentlyPlayedPage(page: Page) {
 
           let type: Type;
           if (typeSrc.includes("s_text.png")) {
-            type = "Single";
+            type = "SINGLE";
           } else if (typeSrc.includes("d_text.png")) {
-            type = "Double";
+            type = "DOUBLE";
           } else {
             type = "Unknown";
           }
