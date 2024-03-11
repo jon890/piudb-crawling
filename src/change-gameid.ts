@@ -1,5 +1,6 @@
-import { Browser } from "puppeteer";
+import { Browser, Page } from "puppeteer";
 import { getPageWithNotImage } from "./puppeteer/ready-browser";
+import { sleep } from "./util";
 
 export type GameId = {
   title: string;
@@ -16,6 +17,34 @@ export default async function changeGameId(browser: Browser, nickname: string) {
   const page = await getPageWithNotImage(browser);
   await page.goto("https://www.piugame.com/my_page/play_data.php");
 
+  const current = await getCurrentNickname(page);
+  if (current === nickname) {
+    await page.close();
+    return;
+  }
+
+  let retryCount = 3;
+  for (let i = 0; i < retryCount; i++) {
+    await _changeGameId(page, nickname);
+
+    const current = await getCurrentNickname(page);
+    // console.log(
+    //   "currentNickname",
+    //   current,
+    //   "targetNickname",
+    //   nickname,
+    //   "retryCount",
+    //   i
+    // );
+
+    if (current === nickname) {
+      await page.close();
+      break;
+    }
+  }
+}
+
+async function _changeGameId(page: Page, nickname: string) {
   await page.click("a[href='#profile_modal']");
 
   const profiles = await page.$$eval(
@@ -43,12 +72,19 @@ export default async function changeGameId(browser: Browser, nickname: string) {
     );
   }
 
-  await page.$eval(
-    `input[type='radio'][name='sub_profile'][value='${exist.value}']`,
-    (el) => {
-      el.click();
-    }
-  );
+  await Promise.all([
+    page.waitForNavigation({
+      timeout: 5000,
+      waitUntil: "load",
+    }),
+    page.click(
+      `input[type='radio'][name='sub_profile'][value='${exist.value}']`
+    ),
+  ]);
+}
 
-  await page.close();
+async function getCurrentNickname(page: Page) {
+  return await page.$eval(`div.in_profile p.t2`, (el) => {
+    return el.textContent;
+  });
 }
