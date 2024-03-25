@@ -182,7 +182,7 @@ async function getRecentlyPlayedPage(page: Page) {
             level,
             songName,
             grade: grade as Grade,
-            plate: plate,
+            plate,
             isBreakOff,
             score: score !== "" ? Number(score.replaceAll(",", "")) : 0,
             perfect: Number(perfect.replaceAll(",", "")),
@@ -193,8 +193,8 @@ async function getRecentlyPlayedPage(page: Page) {
             playedTime,
           };
         })
-        .filter((it) => it.score !== 0) // stage break 무시
-        .filter((it) => it.plate != null) // break off 무시
+        .filter((it) => Boolean(it.score)) // stage break 무시
+    // .filter((it) => it.plate != null) // break off 무시
   );
   return data;
 }
