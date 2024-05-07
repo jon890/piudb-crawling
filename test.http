@@ -18,6 +18,18 @@ Content-Type: application/json
   "nickname": "{{nickname}}"
 }
 
+###
+
+POST http://localhost:18080/
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "password" : "{{password}}",
+  "nickname": "{{nickname}}",
+  "mode": "MY_BEST"
+}
+
 
 ###
 

@@ -1,4 +1,4 @@
-import { ErrorCodeKey } from "./exception/error-code";
+import { ErrorCodeKey } from "../exception/error-code";
 
 export class CrawlingResponse<T> {
   constructor(

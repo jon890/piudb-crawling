@@ -1,17 +1,18 @@
 import * as functions from "@google-cloud/functions-framework";
 import changeGameId from "./change-gameid";
-import { CrawlingResponse } from "./crawling.response";
+import { CrawlingResponse } from "./common/crawling.response";
 import { CrawlingException } from "./exception/crawling.exception";
 import getRecentlyPlayed from "./get-recently-played";
 import loadGameIds from "./load-gameid";
 import loginToPIU, { checkLoginState } from "./login-piu";
 import { isBlank } from "./util";
+import getMyBestScore from "./get-my-best-score";
 
 functions.http("crawling", async (req, res) => {
   // console.log("reqIp", req.ip);
   // console.log("reqReferrer", req.get("referrer"));
 
-  const { email, password, nickname } = req.body;
+  const { email, password, nickname, mode } = req.body;
 
   try {
     if (isBlank(email)) throw new CrawlingException("EMAIL_REQUIRED");
@@ -22,11 +23,16 @@ functions.http("crawling", async (req, res) => {
 
     if (nickname) {
       await changeGameId(browser, nickname);
-      const recentlyPlayed = await getRecentlyPlayed(browser);
 
-      await browser.close();
-      res.send({ recentlyPlayed });
-      return;
+      if (mode === "MY_BEST") {
+        const myBestScore = await getMyBestScore(browser);
+        await browser.close();
+        res.status(200).send(CrawlingResponse.ok(myBestScore));
+      } else {
+        const recentlyPlayed = await getRecentlyPlayed(browser);
+        await browser.close();
+        res.send({ recentlyPlayed });
+      }
     } else {
       const gameIds = await loadGameIds(browser);
 
@@ -48,14 +54,3 @@ functions.http("crawling", async (req, res) => {
     }
   }
 });
-
-function handleCors(req: functions.Request, res: functions.Response) {
-  res.set("Access-Control-Allow-Origin", "*");
-
-  if (req.method === "OPTIONS") {
-    res.set("Access-Control-Allow-Methods", "GET");
-    res.set("Access-Control-Allow-Headers", "Content-Type");
-    res.set("Access-Control-Max-Age", "3600");
-    res.status(204).send("");
-  }
-}
