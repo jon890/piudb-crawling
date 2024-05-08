@@ -47,6 +47,7 @@ export type MyBestScore = {
  * 로그인 된 페이지가 필요하다
  *
  * TODO 55페이지 동작시 62초 소요 개선이 필요해!!
+ * => 전체 페이지를 병렬로 수행 => cloud run으로 배포 시 오류가 잦음 (페이지 로드 30초 초과)
  */
 export default async function getMyBestScore(browser: Browser) {
   const URL = "https://www.piugame.com/my_page/my_best_score.php";
@@ -77,11 +78,17 @@ export default async function getMyBestScore(browser: Browser) {
     return [];
   }
 
-  const data = await handleMultiplePages(
-    browser,
-    lastPage,
-    (page, pageNumber) => getMyBestScorePage(page, pageNumber)
-  );
+  const unit = 10;
+  const data: MyBestScore[] = [];
+
+  for (let i = 0; i < Math.floor(lastPage / unit); i++) {
+    const result = await handleMultiplePages(
+      browser,
+      unit,
+      (page, pageNumber) => getMyBestScorePage(page, unit * i + pageNumber)
+    );
+    data.push(...result);
+  }
 
   return data;
 }
