@@ -43,11 +43,12 @@ Content-Type: application/json
 
 ###
 
-POST https://piudb-crawling-x5kgeugtqa-an.a.run.app
+POST https://piudb-crawling-x5kgeugtqa-du.a.run.app
 Content-Type: application/json
 
 {
   "email": "{{email}}",
   "password" : "{{password}}",
-  "nickname": "{{nickname}}"
+  "nickname": "{{nickname}}",
+  "mode": "MY_BEST"
 }
