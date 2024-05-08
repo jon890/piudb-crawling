@@ -1,6 +1,6 @@
 import { Browser, Page } from "puppeteer";
 import { getPageWithNotImage } from "./puppeteer/ready-browser";
-import { sleep } from "./util";
+import { handleMultiplePages } from "./util";
 
 export type Type = "SINGLE" | "DOUBLE" | "Unknown";
 
@@ -45,13 +45,13 @@ export type MyBestScore = {
 /**
  * 마이 베스트 기록 가져오기
  * 로그인 된 페이지가 필요하다
+ *
+ * TODO 55페이지 동작시 62초 소요 개선이 필요해!!
  */
 export default async function getMyBestScore(browser: Browser) {
   const URL = "https://www.piugame.com/my_page/my_best_score.php";
   const page = await getPageWithNotImage(browser);
-  await page.goto(URL);
-
-  await sleep(100); // 페이지 로드를 기다린다
+  await page.goto(URL, { waitUntil: "domcontentloaded" });
 
   const noContents = await page.$("div.no_con");
   if (noContents) {
@@ -77,19 +77,18 @@ export default async function getMyBestScore(browser: Browser) {
     return [];
   }
 
-  const myBestScores: MyBestScore[] = [];
-  for (let i = 1; i <= lastPage; i++) {
-    const data = await getMyBestScorePage(page, i);
-    myBestScores.push(...data);
-  }
+  const data = await handleMultiplePages(
+    browser,
+    lastPage,
+    (page, pageNumber) => getMyBestScorePage(page, pageNumber)
+  );
 
-  return myBestScores;
+  return data;
 }
 
 async function getMyBestScorePage(puppeteer: Page, pageNumber: number) {
   const URL = `https://www.piugame.com/my_page/my_best_score.php?&page=${pageNumber}`;
-  await puppeteer.goto(URL);
-  await sleep(100); // 페이지 로드를 기다린다
+  await puppeteer.goto(URL, { waitUntil: "domcontentloaded" });
 
   const data: MyBestScore[] = await puppeteer.$$eval(
     "ul.my_best_scoreList > li",
