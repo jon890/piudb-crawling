@@ -80,11 +80,12 @@ export default async function getMyBestScore(browser: Browser) {
 
   const unit = 10;
   const data: MyBestScore[] = [];
+  const iterationCount = Math.floor(lastPage / unit);
 
-  for (let i = 0; i < Math.floor(lastPage / unit); i++) {
+  for (let i = 0; i <= iterationCount; i++) {
     const result = await handleMultiplePages(
       browser,
-      unit,
+      i !== iterationCount ? unit : lastPage % unit,
       (page, pageNumber) => getMyBestScorePage(page, unit * i + pageNumber)
     );
     data.push(...result);

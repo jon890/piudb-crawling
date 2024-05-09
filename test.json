@@ -1,0 +1,4324 @@
+{
+  "data": [
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "아모르 파티",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987094
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "비트 오브 더 워",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 955260
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "탑 시티",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993530
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "피가로의 결혼 ~Celebrazione Remix~",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990203
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "디그니티",
+      "grade": "AA",
+      "plate": "ROUGH_GAME",
+      "score": 917021
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "베토벤 바이러스",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 982471
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "까르멘 버스",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 977366
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "힙노시스(SynthWulf 믹스)",
+      "grade": "S_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 976742
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "월광",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 975522
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "임프린팅",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986734
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "디스트로0ㅣ어",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 970505
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "아이올라이트 스카이",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 990750
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "더 레버리",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "김치 핑거즈",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 988110
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "왈츠 오브 도지",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 995873
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "마카롱 데이",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 996192
+    },
+    {
+      "type": "DOUBLE",
+      "level": "17",
+      "songName": "할로윈 파티 ~Multiverse~",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 997513
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "오버 더 호라이즌",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 997681
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "아이디얼라이즈드 로맨스 ",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998205
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "디제이 오타다",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 967644
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "마타도르",
+      "grade": "AA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 943207
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "쥬핀",
+      "grade": "SS",
+      "plate": "EXTREME_GAME",
+      "score": 983437
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "어콰이어",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 947928
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "그로스",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 948597
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "굿텍",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 979846
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "크로스 타임",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990591
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "디",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989050
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "폴른 엔젤",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 981113
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "VVV ",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 962096
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "라 그랑드 루즈",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 996354
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "코스미컬 리듬",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 985708
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "파사칼리아",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998818
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "매지컬 베케이션",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "SINGLE",
+      "level": "16",
+      "songName": "로키",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "Re：엔드 오브 어 드림",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 985143
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "레드라인",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986320
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "엑스트리",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991248
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "스켑틱",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 971197
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "1950",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 972491
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "터키 행진곡",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 963101
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "요! 세이!! 페어리!!!",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 983800
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "다람쥐 헌 쳇바퀴에 타고파",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 947837
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "레드 스노우",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 992698
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "가장신자",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 975996
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "투우사의 노래",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984174
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "스타드림 (feat. Romelon)",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999587
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "니힐리즘 - 어나더 버전 -",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 997553
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "그로스",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998010
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "러브 이즈 어 데인저 존",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985966
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "프라임",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 996756
+    },
+    {
+      "type": "DOUBLE",
+      "level": "17",
+      "songName": "스프레이",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "DOUBLE",
+      "level": "17",
+      "songName": "크로스 타임",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 996760
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "붐!!",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991755
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "그로스",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 975228
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "트릭크래쉬 220",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985693
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "프ㄹi마 마테ㄹi아",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988325
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "피가로의 결혼 ~Celebrazione Remix~",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 985060
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "솔페지에토",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 969884
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "까랴위사따",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 950173
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "굿 나이트",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 980039
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "플레이버 스텝!",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 983749
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "에너지 시너지 매트릭스",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991361
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "브링 백 더 비트",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990810
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "배틀 넘버원",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 995830
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "루시드 드림",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 994930
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "디스트로0ㅣ어",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989928
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "루시드 드림",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 990000
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "무혼 2",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 980777
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "체이스 미",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 944705
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "요그 소토스",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 956261
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "1950",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 954423
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "카오스 어게인",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984218
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "솔페지에토",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 948508
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "솔페지에토",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 947099
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "루시드 드림",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 983963
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "솔페지에토",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 996884
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "솔페지에토",
+      "grade": "SSS",
+      "plate": "EXTREME_GAME",
+      "score": 993957
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "디스트로0ㅣ어",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 996003
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "피가로의 결혼 ~Celebrazione Remix~",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 998555
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "프ㄹi마 마테ㄹi아",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998552
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "디스트로0ㅣ어",
+      "grade": "AA",
+      "plate": "ROUGH_GAME",
+      "score": 924478
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "루시드 드림",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990673
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "베르사이유",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987667
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "큐리아서티 오버드라이브",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 951833
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "푸파",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988323
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "알테일",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 982780
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "붐!!",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 980752
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "진폐증 ft. Kagamine Len/GUMI",
+      "grade": "SS_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 988547
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "우편마차",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 980202
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "아클루오이아스",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 962948
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "크로싱 델타",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 999063
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "글로리아",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 995547
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "풀 문",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 979136
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "어나이얼레이터 메소드",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987509
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "엑스트라바간자",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 973518
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "퍼센트 엑스",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 994778
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "이스케이프",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 987366
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "미토츠다이라",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 997332
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "위스퍼",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "DOUBLE",
+      "level": "16",
+      "songName": "오블리터레이션",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998954
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "히페리온",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 998521
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "스테이저",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 949799
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "아마겟돈",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 962940
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "쥬핀",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 941388
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "아리랑",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 943258
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "굿 나이트",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 948809
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "캉-캉 ~Orpheus in The Party Mix~",
+      "grade": "S",
+      "plate": "ROUGH_GAME",
+      "score": 970714
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "비디오 아웃 씨",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 968183
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "하드코어 오브 더 노스",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 979216
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "클럽 나이트",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 964283
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "가고일",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 969409
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "이렐리아",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986548
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "진공",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 966698
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "엑스트리",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986862
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "저스트 홀드 온 (To All Fighters)",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 995266
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "사이먼 세이즈, 유로댄스!! (feat. Sara☆M)",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991660
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "더 레볼루션",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986665
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "스위트로닉",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 998345
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "슈브 니구라스",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 996658
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "R.I.P",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 971469
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "네크로맨시",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 964772
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "시",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 979917
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "포인트 제로 2",
+      "grade": "AAA",
+      "plate": "ROUGH_GAME",
+      "score": 958625
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "추격",
+      "grade": "AAA",
+      "plate": "TALENTED_GAME",
+      "score": 958308
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "푸파",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992813
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "네오 카타르시스",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 967808
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "카오스 어게인",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 977735
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "월광",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 982897
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "슈퍼 스타일린",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 998801
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "로키",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 983285
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "금혼식",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988338
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "멘탈 라이더",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 983965
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "위치 닥터 #1",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 983873
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "파이널 오디션",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986253
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "하트 어택",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "트로피카닉",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "무혼 1.5",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987582
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "8 6 - FULL SONG -",
+      "grade": "SS",
+      "plate": "ROUGH_GAME",
+      "score": 980993
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "쇼다운",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986657
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "꼭두각시",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985350
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "톰보이",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990766
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "멘탈 라이더",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 926292
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "패스터 Z",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 966802
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "니힐리즘 - 어나더 버전 -",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 968636
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "왓 해픈드",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 995932
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "배틀 넘버원",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 984834
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "굿텍",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 928154
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "스텝",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 997841
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "하드코어 오브 더 노스",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 971772
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "록시아",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989204
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "아라가미",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987753
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "쥬핀",
+      "grade": "SS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 989264
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "러브 이즈 어 데인저 존 pt.2",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991881
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "테일즈 오브 펌프니아",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999221
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "아모르 파티",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 997238
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "펌트리스 꽈뜨로",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992712
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "비옐라의 악몽",
+      "grade": "AAA",
+      "plate": "ROUGH_GAME",
+      "score": 958687
+    },
+    {
+      "type": "DOUBLE",
+      "level": "17",
+      "songName": "누드",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 983404
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "탑 시티",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 995763
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "파이널 오디션 에피소드 2-X",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 981857
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "페이브 가든",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 978535
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "히아신스",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 977789
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "날아올라",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992221
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "퍼더",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 969562
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "파파 곤잘레스",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 977001
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "크로스 오버 feat. LyuU",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 972110
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "엑스트림",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988426
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "브로큰 카르마 (PIU EDIT)",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 997005
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "고딕 레조넌스",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 979811
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "에너지 시너지 매트릭스",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 995805
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "굿바운스",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993623
+    },
+    {
+      "type": "DOUBLE",
+      "level": "16",
+      "songName": "갤럭시 컬랩스",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 993557
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "인디스트럭터블",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 978314
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "에프 에프 에프",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 963728
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "겟 유어 그루브 온",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989583
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "알레그로 콘 뿌오코",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 968933
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "파이널 오디션 에피소드 2-1",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 948407
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "갤럭시 컬랩스",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 949089
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "파파시토 (feat.  KuTiNA) - FULL SONG -",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992841
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "시",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999100
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "실버 비트 feat. ChisaUezono",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991986
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "헤드리스 치킨",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 970565
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "위엑닥바",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 947891
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "클리너",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 973443
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "미스터 라푸스",
+      "grade": "SSS",
+      "plate": "EXTREME_GAME",
+      "score": 994418
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "시",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 982020
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "패스터 Z",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 973012
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "트릭크래쉬 220",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999606
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "트릭크래쉬 220",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 983742
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "트릭크래쉬 220",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 997659
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "듀얼 레이싱 <레드 vs 블루>",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998764
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "시",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993048
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "쇼다운",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 996294
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "싸이클링!",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986348
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "갓 모드 feat. Skizzo",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 973366
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "슬램",
+      "grade": "SS",
+      "plate": "FAIR_GAME",
+      "score": 980919
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "밀크",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 976399
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "도나텔로",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 963737
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "로봇 배틀",
+      "grade": "AAA",
+      "plate": "TALENTED_GAME",
+      "score": 957832
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "파파 곤잘레스",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 978531
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "포스 오브 라",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989268
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "비트 오브 더 워",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 976132
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "보카",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 989089
+    },
+    {
+      "type": "DOUBLE",
+      "level": "17",
+      "songName": "레이지 오브 파이어",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999569
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "시",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 996526
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "스톰",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "니알라토텝",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 996633
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "날아올라",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 994748
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "라크리모사",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987936
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "할로윈 파티 ~Multiverse~",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 972403
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "디멘트 ~에프터 레전드~",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 929629
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "위스퍼",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993986
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "하트 래빗 코스터",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 960798
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "얼티메이텀",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 975471
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "슈퍼 카프리시오",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 971099
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "파이널 오디션 에피소드 2-X - SHORT CUT -",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 963279
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "메테오 사이언스 (GADGET mix)",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 981213
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "오버블로우",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 982867
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "네메시스",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 980366
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "얼티메이텀",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 930474
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "유 갓 투 노우",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984607
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "머독",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 940117
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "페이브 가든",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993657
+    },
+    {
+      "type": "SINGLE",
+      "level": "24",
+      "songName": "패러독스 - SHORT CUT -",
+      "grade": "AA",
+      "plate": "FAIR_GAME",
+      "score": 905714
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "패러독스",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 986729
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "디그니티",
+      "grade": "S",
+      "plate": "SUPERB_GAME",
+      "score": 974830
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "라젠스키 캉캉",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 968998
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "서든 어페어런스 이미지",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 996020
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "디스트릭트 1",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992235
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "바로크 바이러스 - FULL SONG -",
+      "grade": "S_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 976214
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "베르사이유",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 996191
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "레이브 언틸 디 어스 엔드",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 998254
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "고딕 레조넌스",
+      "grade": "S",
+      "plate": "MARVELOUS_GAME",
+      "score": 973427
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "요그 소토스",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 981804
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "블루이쉬 로즈",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 994232
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "야근",
+      "grade": "S",
+      "plate": "MARVELOUS_GAME",
+      "score": 972536
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "리펜턴스",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986995
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "우츠시요 노 카제 feat. Kana",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998690
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "할시온",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 975315
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "보카",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993785
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "어콰이어",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992796
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "할시온",
+      "grade": "AA",
+      "plate": "ROUGH_GAME",
+      "score": 917489
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "서든 어페어런스 이미지",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 949173
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "벡터",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 982823
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "리틀 먼치킨",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991112
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "톰보이",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 998094
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "시간의 회랑 라비린스",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 982450
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "꼭두각시",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 971716
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "알테일",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988635
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "푸파",
+      "grade": "S_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 975423
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "슈브 니구라스",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 972627
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "붐!!",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 994820
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "러브 이즈 어 데인저 존 pt.2",
+      "grade": "AAA",
+      "plate": "ROUGH_GAME",
+      "score": 957657
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "제네시스",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998176
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "미스터 라푸스",
+      "grade": "AA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 941753
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "니알라토텝",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 934302
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "플레이버 스텝!",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986296
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "아라가미",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 968689
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "팬텀 -인터메조-",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 958423
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "밀크",
+      "grade": "SS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 989249
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "윈터",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 980312
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "큐리아서티 오버드라이브",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998554
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "헤스티아",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990461
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "팝 시퀀스",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 986493
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "할로윈 파티 ~Multiverse~",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991202
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "그로스",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993277
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "R.I.P",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991851
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "리틀 먼치킨",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 997100
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "리틀 먼치킨",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 962173
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "리틀 먼치킨",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 998333
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "진폐증 ft. Kagamine Len/GUMI",
+      "grade": "SSS",
+      "plate": "TALENTED_GAME",
+      "score": 992271
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "사이먼 세이즈, 유로댄스!! (feat. Sara☆M)",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999151
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "데스티네이션",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 959776
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "바버스 매드니스",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 977032
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "서든 어페어런스 이미지",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987806
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "모페모페",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 936534
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "서든 어페어런스 이미지",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 950813
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "사이먼 세이즈, 유로댄스!! (feat. Sara☆M)",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 962180
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "사이먼 세이즈, 유로댄스!! (feat. Sara☆M)",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999603
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "가장신자",
+      "grade": "AA",
+      "plate": "FAIR_GAME",
+      "score": 919585
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "요! 세이!! 페어리!!!",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992364
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "패러독스 - SHORT CUT -",
+      "grade": "S",
+      "plate": "MARVELOUS_GAME",
+      "score": 970723
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "하트 래빗 코스터",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 968867
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "블랙스완",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988783
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "갤럭시 컬랩스",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984405
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "비옐라의 악몽",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993904
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "엘리제",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 974055
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "사월",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 984394
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "헝가리 무곡 V",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984015
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "코스믹 레일로드",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 996144
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "모페모페",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 993914
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "애프터 라이크",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 995086
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "블루이쉬 로즈",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 997737
+    },
+    {
+      "type": "SINGLE",
+      "level": "16",
+      "songName": "리펜턴스",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 995879
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "왈츠 오브 도지",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985854
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "포인트 제로 2",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992971
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "푸파",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993224
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "하트 어택",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985459
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "벡터",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 997401
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "HTTP",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 981550
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "탄탄멘",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985792
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "시그너스",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 997573
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "크로싱 델타",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999103
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "데인저 & 데인저",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "니알라토텝",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 927158
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "테디베어",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987860
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "배틀 넘버원",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 976987
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "에너지 시너지 매트릭스",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 993497
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "어콰이어",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991705
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "더 레볼루션",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 980021
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "월광",
+      "grade": "S",
+      "plate": "MARVELOUS_GAME",
+      "score": 972860
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "카오스 어게인",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991635
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "크로스 레이 (feat. 月下Lia)",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984180
+    },
+    {
+      "type": "SINGLE",
+      "level": "16",
+      "songName": "슈브 니구라스",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "카오스 어게인",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 994014
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "라이징 스타",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989405
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "배드 애플!! feat. Nomico - FULL SONG -",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 970936
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "위치 닥터",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 949355
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "디그니티",
+      "grade": "AAA",
+      "plate": "TALENTED_GAME",
+      "score": 953484
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "키메라",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 949761
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "Re：엔드 오브 어 드림",
+      "grade": "S_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 979128
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "R.I.P",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 995352
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "머독",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 998040
+    },
+    {
+      "type": "DOUBLE",
+      "level": "17",
+      "songName": "유령의 축제 2 (Sneak)",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 996654
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "톰보이",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999280
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "프라임 타임",
+      "grade": "AAA",
+      "plate": "ROUGH_GAME",
+      "score": 953860
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "디멘트 ~에프터 레전드~",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988754
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "미스 에스 스토리",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 971021
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "하우스플랜",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 987382
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "밀크",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998616
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "판도라",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 998962
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "시간의 회랑 라비린스",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 968751
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "뷰티플라이어",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 971247
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "우라늄",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 955894
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "큐리아서티 오버드라이브",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 975563
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "꼭두각시",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 944334
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "인디스트럭터블",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 969527
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "블랙 드래곤",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984150
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "스프레이",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 979304
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "아라가미",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 995234
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "유포리아닉",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 997891
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "네오 카타르시스",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 997006
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "플레이버 스텝!",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 998433
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "판도라",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985735
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "미스터 라푸스",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 964611
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "윈드밀",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 976749
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "트릭크래쉬 220",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 955803
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "푸파",
+      "grade": "AAA",
+      "plate": "ROUGH_GAME",
+      "score": 953195
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "트래블 투 퓨처",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989730
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "윈터",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 980330
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "팬텀",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984672
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "모노리스",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 981180
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "마타도르",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 990288
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "알레그로 퓨리오소",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 966697
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "블루이쉬 로즈",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991898
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "아발란치",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 946395
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "크로스 소울",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 955075
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "파이널 오디션 에피소드 2-2",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 936075
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "네오 카타르시스",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986706
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "카프리스 오브 오타다",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 971780
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "크로스 오버 feat. LyuU",
+      "grade": "AAA",
+      "plate": "TALENTED_GAME",
+      "score": 957547
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "플레이버 스텝!",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 997332
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "테디베어",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 959544
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "팔랑크스 \"RS2018 edit\"",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 970756
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "클레마티스 랩소디아",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 980808
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "아이올라이트 스카이",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 938319
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "메테오 사이언스 (GADGET mix)",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 985016
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "브레인 파워",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 967498
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "캐논 X.1",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985889
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "머독",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 967666
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "매드 사이언스",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 983290
+    },
+    {
+      "type": "SINGLE",
+      "level": "16",
+      "songName": "풀 문",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 998944
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "알레그로 퓨리오소",
+      "grade": "SSS",
+      "plate": "EXTREME_GAME",
+      "score": 993150
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "모노리스",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 971260
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "뷰티플라이어",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 970911
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "스타 커맨드",
+      "grade": "AAA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 962622
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "체이스 미",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989871
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "8 6",
+      "grade": "SSS",
+      "plate": "TALENTED_GAME",
+      "score": 993549
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "파이널 오디션",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 961159
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "두 유 노우 댓-올드 스쿨",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 983323
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "글로리아",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987224
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "유포리아닉 - SHORT CUT -",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993019
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "앵귀시드 언메이킹",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 979057
+    },
+    {
+      "type": "SINGLE",
+      "level": "24",
+      "songName": "제로아이즈",
+      "grade": "AA",
+      "plate": "ROUGH_GAME",
+      "score": 921756
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "마이 드림즈",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 991858
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "배니쉬",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 979312
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "레미니센스",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 996592
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "브레이크 아웃",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993851
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "보카",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 980105
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "굿바운스",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 998324
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "윈드밀",
+      "grade": "AAA",
+      "plate": "ROUGH_GAME",
+      "score": 951439
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "디제이 오타다",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 954921
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "팔랑크스 \"RS2018 edit\"",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989476
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "돌리 키스",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 989295
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "비행기",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "에프 에프 에프",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 969066
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "아이 원트 유",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992953
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "로그인",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 931322
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "라이프 이즈 피아노",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999489
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "풀 문",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 989816
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "이렐리아",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992964
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "큐리아서티 오버드라이브",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 996905
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "요! 세이!! 페어리!!!",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "라그나로크",
+      "grade": "AAA",
+      "plate": "TALENTED_GAME",
+      "score": 953480
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "레드 스노우",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 966776
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "겟 업",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991263
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "락 더 하우스",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 967699
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "Re：엔드 오브 어 드림",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991941
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "히글디 피글디",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992188
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "큐리아서티 오버드라이브",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993493
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "쥬핀",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999103
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "비트 더 고스트",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 975707
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "디멘트 ~에프터 레전드~",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 982829
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "라젠스키 캉캉",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 973913
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "배드 애플!! feat. Nomico",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993400
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "러브 이즈 어 데인저 존(Cranky 믹스)",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 995531
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "어콰이어",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 997639
+    },
+    {
+      "type": "SINGLE",
+      "level": "16",
+      "songName": "오르비트 스테빌라이저",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 996014
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "갓 모드 2.0 feat. Skizzo",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 967858
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "시그너스",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 996111
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "임프린팅",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 929302
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "왓 해픈드",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990883
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "머독",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 995944
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "아모르 파티",
+      "grade": "AAA",
+      "plate": "ROUGH_GAME",
+      "score": 959622
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "슬랩스틱 파르페",
+      "grade": "SSS_PLUS",
+      "plate": "EXTREME_GAME",
+      "score": 996862
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "비옐라의 악몽",
+      "grade": "SSS",
+      "plate": "SUPERB_GAME",
+      "score": 992773
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "꼭두각시",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987429
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "이렐리아",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 998143
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "설탕음모론",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991908
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "립톤 스트라이크",
+      "grade": "AAA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 961910
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "인피니티",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985858
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "크로스 레이 (feat. 月下Lia)",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 988207
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "안녕 윌리엄",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 977594
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "1950",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 949273
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "스마일 다이어리",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990897
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "레드 스완",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 950636
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "이스케이프",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 980447
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "라크리모사",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 965849
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "아이올라이트 스카이",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 979781
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "레드라인",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990654
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "바로크 바이러스",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 985222
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "가고일",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 994796
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "레이브 언틸 디 어스 엔드",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987588
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "얼티메이텀",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998805
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "더 레볼루션",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 993527
+    },
+    {
+      "type": "SINGLE",
+      "level": "17",
+      "songName": "돌리 키스",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999231
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "오르비트 스테빌라이저",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 985653
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "스콜피온 킹",
+      "grade": "S_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 977190
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "클리너",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991100
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "디그니티",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 987230
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "어웨이크닝",
+      "grade": "S_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 975493
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "임프린팅",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 980681
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "록시아",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 984147
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "아르카나 포스",
+      "grade": "S_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 975267
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "패싱 라이더",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 975834
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "코스믹 레일로드",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 996837
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "록시아",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998662
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "시그너스",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 959345
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "킵 온!",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 979690
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "슈가 플럼",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986837
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "스타드림 (feat. Romelon)",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 983014
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "파괴",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 982288
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "테일즈 오브 펌프니아",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 987808
+    },
+    {
+      "type": "SINGLE",
+      "level": "19",
+      "songName": "우라늄",
+      "grade": "SSS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 996707
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "웨딩 크래셔",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 995520
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "레이지 오브 파이어",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 995456
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "아라가미",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 943261
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "스콜피온 킹",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 983682
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "프렌드",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 967280
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "천년이 지나서",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 978024
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "오블리터레이션",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 966737
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "보카",
+      "grade": "SSS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 997050
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "코스믹 레일로드",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 986162
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "타이밍",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988639
+    },
+    {
+      "type": "DOUBLE",
+      "level": "18",
+      "songName": "파이렛",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 992433
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "바버스 매드니스",
+      "grade": "SSS_PLUS",
+      "plate": "PERFECT_GAME",
+      "score": 1000000
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "바버스 매드니스",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 994219
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "머독",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 990536
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "크로스 타임",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 961232
+    },
+    {
+      "type": "SINGLE",
+      "level": "18",
+      "songName": "갤럭시 컬랩스",
+      "grade": "SS",
+      "plate": "MARVELOUS_GAME",
+      "score": 981042
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "위스퍼",
+      "grade": "SSS",
+      "plate": "EXTREME_GAME",
+      "score": 992672
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "머독",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 998439
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "라 그랑드 루즈",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 974121
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "펌트리스 8비트 ver. - SHORT CUT -",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 966443
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "트림 북 오브 더 워",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 969620
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "스켑틱",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 958917
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "풀 문 - FULL SONG -",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 970513
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "비메라 - SHORT CUT -",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 937232
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "불카누스",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 955531
+    },
+    {
+      "type": "DOUBLE",
+      "level": "20",
+      "songName": "할시온",
+      "grade": "SSS",
+      "plate": "MARVELOUS_GAME",
+      "score": 991864
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "카오스 어게인",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 942853
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "하트 래빗 코스터",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 961083
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "야누스",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 970864
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "포세이돈 - SHORT CUT -",
+      "grade": "AA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 937998
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "다람쥐 헌 쳇바퀴에 타고파",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 957255
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "베들램",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 959798
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "리펜턴스",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 959223
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "1949",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 973482
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "스위트로닉",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 972358
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "유 앤 아이",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 970366
+    },
+    {
+      "type": "SINGLE",
+      "level": "20",
+      "songName": "치킨 윙",
+      "grade": "SS_PLUS",
+      "plate": "SUPERB_GAME",
+      "score": 986958
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "소서리스 엘리제",
+      "grade": "AA",
+      "plate": "ROUGH_GAME",
+      "score": 916357
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "시간의 회랑 라비린스",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 966772
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "BS파워 익스플로전",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 969038
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "디 엔드 오브 더 월드 ft. Skizzo",
+      "grade": "S",
+      "plate": "TALENTED_GAME",
+      "score": 973744
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "팔랑크스 \"RS2018 edit\"",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 967653
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "베토벤 바이러스",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 940788
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "유 앤 아이",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 938464
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "HTTP",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 951818
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "앵귀시드 언메이킹",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 976951
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "브레인 파워",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 965442
+    },
+    {
+      "type": "SINGLE",
+      "level": "22",
+      "songName": "이그니스 패터스(DM Ashura 믹스)",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 965311
+    },
+    {
+      "type": "DOUBLE",
+      "level": "21",
+      "songName": "시그너스",
+      "grade": "SS_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 988169
+    },
+    {
+      "type": "SINGLE",
+      "level": "24",
+      "songName": "아클루오이아스",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 942568
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "풀 문",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 946242
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "1949",
+      "grade": "AAA_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 963426
+    },
+    {
+      "type": "DOUBLE",
+      "level": "22",
+      "songName": "마이 드림즈",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 966190
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "클리너",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 951325
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "벡터",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 971296
+    },
+    {
+      "type": "DOUBLE",
+      "level": "24",
+      "songName": "펌프 미 아마데우스",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 936083
+    },
+    {
+      "type": "DOUBLE",
+      "level": "19",
+      "songName": "스톰",
+      "grade": "SSS_PLUS",
+      "plate": "ULTIMATE_GAME",
+      "score": 999588
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "까르멘 버스",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 976068
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "브로큰 카르마 (PIU EDIT)",
+      "grade": "AAA",
+      "plate": "FAIR_GAME",
+      "score": 958590
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "위치 닥터",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 927505
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "웨딩 크래셔",
+      "grade": "SS",
+      "plate": "TALENTED_GAME",
+      "score": 980082
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "와라유도인?",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 968814
+    },
+    {
+      "type": "SINGLE",
+      "level": "21",
+      "songName": "니알라토텝",
+      "grade": "AAA_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 961721
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "엑스트라바간자 - SHORT CUT -",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 965822
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "파이어 누들 챌린지",
+      "grade": "AAA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 961670
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "VVV ",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 936277
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "트래블 투 퓨처",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 973603
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "캉-캉 ~Orpheus in The Party Mix~ - SHORT CUT -",
+      "grade": "SS_PLUS",
+      "plate": "MARVELOUS_GAME",
+      "score": 988925
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "러브 이즈 어 데인저 존 2 Try To B.P.M",
+      "grade": "AA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 931137
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "클럽 나이트",
+      "grade": "S",
+      "plate": "FAIR_GAME",
+      "score": 971963
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "데인저 & 데인저",
+      "grade": "S_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 976707
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "캐논 디 - FULL SONG -",
+      "grade": "S_PLUS",
+      "plate": "TALENTED_GAME",
+      "score": 978659
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "팝 시퀀스",
+      "grade": "AAA_PLUS",
+      "plate": "ROUGH_GAME",
+      "score": 967164
+    },
+    {
+      "type": "DOUBLE",
+      "level": "23",
+      "songName": "러브 이즈 어 데인저 존 pt.2 - SHORT CUT -",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 967073
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "에러코드: 0",
+      "grade": "AAA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 962638
+    },
+    {
+      "type": "SINGLE",
+      "level": "23",
+      "songName": "프렌드",
+      "grade": "AA_PLUS",
+      "plate": "FAIR_GAME",
+      "score": 929131
+    }
+  ]
+}
