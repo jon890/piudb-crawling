@@ -14,7 +14,11 @@ export type GameId = {
  */
 export default async function changeGameId(browser: Browser, nickname: string) {
   const page = await getPageWithNotImage(browser);
-  await page.goto("https://www.piugame.com/my_page/play_data.php");
+  await page.goto("https://www.piugame.com/my_page/play_data.php", {
+    waitUntil: "domcontentloaded",
+  });
+  // 한국어로 변경
+  await page.click("a.langBtn[data-lang='kr']");
 
   const current = await getCurrentNickname(page);
   if (current === nickname) {
@@ -27,15 +31,6 @@ export default async function changeGameId(browser: Browser, nickname: string) {
     await _changeGameId(page, nickname);
 
     const current = await getCurrentNickname(page);
-    // console.log(
-    //   "currentNickname",
-    //   current,
-    //   "targetNickname",
-    //   nickname,
-    //   "retryCount",
-    //   i
-    // );
-
     if (current === nickname) {
       await page.close();
       break;
