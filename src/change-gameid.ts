@@ -1,5 +1,6 @@
 import { Browser, Page } from "puppeteer";
 import { getPageWithNotImage } from "./puppeteer/ready-browser";
+import { CrawlingException } from "./exception/crawling.exception";
 
 export type GameId = {
   title: string;
@@ -61,8 +62,9 @@ async function _changeGameId(page: Page, nickname: string) {
 
   const exist = profiles.find((it) => it.nickname === nickname);
   if (!exist) {
-    throw Error(
-      `ChangeGameIdError: 닉네임이 일치하는지 다시 확인해주세요, ${nickname}`
+    throw new CrawlingException(
+      "NOT_MATCHED_GAMEID",
+      `ChangeGameIdError: 해당 게임 아이디가 존재하지 않습니다, ${nickname}`
     );
   }
 

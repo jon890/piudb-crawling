@@ -8,6 +8,9 @@ export const ErrorCode = {
   NOT_MATCH_PASSWORD: "NOT_MATCH_PASSWORD",
   LOGIN_FAILED: "LOGIN_FAILED",
 
+  // 게임아이디를 찾을 수 없음
+  NOT_MATCHED_GAMEID: "NOT_MATCHED_GAMEID",
+
   // 알 수 없는 오류
   UNKNOWN: "UNKNOWN",
 } as const;

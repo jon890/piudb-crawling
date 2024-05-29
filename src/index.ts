@@ -41,7 +41,6 @@ functions.http("crawling", async (req, res) => {
     }
   } catch (e) {
     console.log(e);
-    console.dir(e);
 
     if (e instanceof CrawlingException) {
       res
