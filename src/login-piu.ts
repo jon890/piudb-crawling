@@ -34,7 +34,10 @@ export async function checkLoginState(browser: Browser) {
     (await page.$eval("div.login_wrap a.loginBtn", (el) => el.href)) ?? "";
 
   if (!btnLink.includes("logout")) {
-    throw new CrawlingException("LOGIN_FAILED");
+    throw new CrawlingException(
+      "LOGIN_FAILED",
+      "아이디 혹은 비밀번호가 일치하지 않습니다"
+    );
   }
 
   await page.close();

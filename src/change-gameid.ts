@@ -64,7 +64,7 @@ async function _changeGameId(page: Page, nickname: string) {
   if (!exist) {
     throw new CrawlingException(
       "NOT_MATCHED_GAMEID",
-      `ChangeGameIdError: 해당 게임 아이디가 존재하지 않습니다, ${nickname}`
+      `해당 게임 아이디가 존재하지 않습니다, ${nickname}`
     );
   }
 
