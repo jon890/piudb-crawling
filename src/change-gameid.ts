@@ -70,7 +70,7 @@ async function _changeGameId(page: Page, nickname: string) {
 
   await Promise.all([
     page.waitForNavigation({
-      timeout: 5000,
+      timeout: 10000,
       waitUntil: "load",
     }),
     page.click(
